@@ -1,14 +1,14 @@
 Commands
 
 
-Question 1)cd Desktop/data-shell <br />
-          )ls -F <br />
+Question 1)cd Desktop/data-shell <br>
+          )ls -F <br>
 
-Question 2) ls -lt <br />
+Question 2) ls -lt <br>
 
 
-Question 3)wc -c *.pdb | sort -n | tail -n 4 > sorted.txt  <br />
-          )cat sorted.txt // Views the information saved.  <br />
+Question 3)wc -c *.pdb | sort -n | tail -n 4 > sorted.txt  <br>
+          )cat sorted.txt // Views the information saved.  <br>
 
 
 Question 4)wc -w*.dat | sort-n | head -n 2 \
