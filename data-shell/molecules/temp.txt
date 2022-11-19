@@ -1,0 +1,15 @@
+    9 methane.pdb
+    9 og-methane.pdb
+    9 og-original-methane.pdb
+    9 original-methane.pdb
+   12 ethane.pdb
+   12 og-ethane.pdb
+   15 og-propane.pdb
+   15 propane.pdb
+   20 cubane.pdb
+   20 og-cubane.pdb
+   21 og-pentane.pdb
+   21 pentane.pdb
+   30 octane.pdb
+   30 og-octane.pdb
+  232 total
