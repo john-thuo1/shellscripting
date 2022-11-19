@@ -2,7 +2,7 @@ Commands
 
 
 Question 1)cd Desktop/data-shell \
-                 )ls -F \
+          )ls -F \
 
 Question 2) ls -lt \
 
