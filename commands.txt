@@ -1,0 +1,80 @@
+Commands
+
+
+Question 1)cd Desktop/data-shell \
+                 )ls -F \
+
+Question 2) ls -lt \
+
+
+Question 3)wc -c *.pdb | sort -n | tail -n 4 > sorted.txt  \
+          )cat sorted.txt // Views the information saved.  \
+
+
+Question 4)wc -w*.dat | sort-n | head -n 2 \
+
+Question 5)for file in o* \
+	> do \
+	>echo $file \
+	>done \
+
+
+Question 6) \
+// Creating script \
+)nano species.sh \
+echo”Command in the script” \
+echo “ In File “ $1 \
+cut -d  “,” -f 2 $1| sort | uniq \
+
+Question 7)bash species.sh animals.txt \
+
+Question 8) \
+Script ~ mainc.sh \
+
+i) echo "Processes Running In The Computer" \
+   echo \
+   ps -e \
+   echo  \
+   
+ii)echo "Process consuming most CPU" \
+  ps -eo pid,ppid,%mem,%cpu,comm --sort=-%cpu | head -n 2 \
+  echo \
+iii)echo "Process consuming most Memory"
+    ps -eo pid,ppid,%mem,%cpu,comm --sort=-%mem | head -n 2 \
+    echo \
+
+iv)echo "Please enter the Process ID you want to kill : "
+   read Process_ID \
+   if test -d /proc/"$Process_ID"; \
+   then   \ 
+     sudo kill -9 $Process_ID \
+     echo "Process Killed" \
+     ps -aux \
+   else \
+     echo "Process ID entered does not exist" \
+   fi \
+   echo \
+v)echo "File(s) that start with a number"
+  echo \ 
+  for i in [0123456789]* \
+  do \
+  if [ -f $i ] \
+  then \
+    echo $i \
+  else \
+    echo  "No such File in the directory!" \
+  fi \
+  done \
+
+
+Run  mainc.sh Script Command  \
+Question 8)bash mainc.sh \
+
+
+
+
+
+
+     
+
+
