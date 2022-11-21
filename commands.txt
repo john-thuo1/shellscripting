@@ -7,8 +7,8 @@ Question 1)cd Desktop/data-shell
 Question 2) ls -lt 
 
 
-Question 3)wc -c *.pdb | sort -n | tail -n 4 > sorted.txt 
-          )cat sorted.txt // Views the information saved.  
+Question 3)wc -c *.pdb | sort -n | tail -n 5 > sorted.txt 
+          )cat sorted.txt // Views the data saved.  
 
 
 Question 4)wc -w*.dat | sort-n | head -n 2 
