@@ -1,5 +1,7 @@
 Question 1)cd Desktop/data-shell
                  )file ./*
+Question 1 alternative) find . -type f | sed -e 's/.*\.//' | sed -e 's/.*\///' | sort | uniq -c | sort -rn 
+                    
 
 Question 2) ls -lt
 
